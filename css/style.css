@@ -1,0 +1,88 @@
+.top-container {
+  background-color: #179bae;
+  position: relative;
+  text-align: center;
+  height: 700px;
+}
+
+.centered {
+  color: #f1dec6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.circular--square {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #ff8343;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #4158a6;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+hr {
+  border: 6px dotted #ff8343;
+  border-bottom: none;
+  width: 10%;
+  margin: 60px auto;
+}
+
+footer {
+  background-color: #f1dec6;
+  color: #179bae;
+}
+
+.aboutMe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aboutMe-plan {
+  flex: 1;
+  padding: 20px;
+  background-color: #179bae;
+  color: #f1dec6;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 300px;
+  min-height: 400px;
+}
+
+.plan-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.plan-features li {
+  margin-bottom: 20px;
+}
